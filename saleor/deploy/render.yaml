@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: renovax-saleor-app
+    env: node
+    plan: starter
+    rootDir: .
+    buildCommand: npm install --omit=dev
+    startCommand: node server.js
+    healthCheckPath: /healthz
+    envVars:
+      - key: APP_URL
+        sync: false
+      - key: APL
+        value: file
+      - key: INVOICE_TTL_MINUTES
+        value: "30"
+      - key: PORT
+        value: "3000"

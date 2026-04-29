@@ -1,0 +1,6 @@
+Drop a 256x256 PNG of the RENOVAX Payments logo here as `rnx-logo.png`.
+This file is referenced by:
+  - lib/manifest.js  (brand.logo.default)
+  - ui/configuration.html
+A transparent background and the RENOVAX orange (var(--bs-primary), #ff6a00)
+match the rest of the product brand.

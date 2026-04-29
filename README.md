@@ -12,6 +12,7 @@ Official integration code to connect your platform with **RENOVAX Payments**.
 | DHRU Fusion | [`dhru-fusion/`](./dhru-fusion/) |
 | Magento 2 | [`magento2/`](./magento2/) |
 | PrestaShop | [`prestashop/`](./prestashop/) |
+| Saleor | [`saleor/`](./saleor/) |
 | Shopify | [`shopify/`](./shopify/) |
 | WebX | [`webx/`](./webx/) |
 | WHMCS | [`whmcs/`](./whmcs/) |
@@ -41,6 +42,7 @@ Código oficial de integración para conectar tu plataforma con **RENOVAX Paymen
 | DHRU Fusion | [`dhru-fusion/`](./dhru-fusion/) |
 | Magento 2 | [`magento2/`](./magento2/) |
 | PrestaShop | [`prestashop/`](./prestashop/) |
+| Saleor | [`saleor/`](./saleor/) |
 | Shopify | [`shopify/`](./shopify/) |
 | WebX | [`webx/`](./webx/) |
 | WHMCS | [`whmcs/`](./whmcs/) |
