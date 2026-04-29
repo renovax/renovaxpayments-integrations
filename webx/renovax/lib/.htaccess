@@ -1,0 +1,2 @@
+# Block all direct HTTP access to lib/ — config.php must never be served.
+Require all denied

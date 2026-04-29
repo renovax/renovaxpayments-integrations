@@ -1,0 +1,20 @@
+{
+  "name": "renovax-wix",
+  "version": "1.0.0",
+  "description": "RENOVAX Payments — Wix Payment Provider SPI service.",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "dotenv": "^16.4.5"
+  },
+  "license": "GPL-2.0-or-later",
+  "author": "RENOVAX"
+}

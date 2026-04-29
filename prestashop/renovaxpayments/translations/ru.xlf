@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="ru" datatype="plaintext" original="Modules.Renovaxpayments.Admin">
+    <body>
+      <trans-unit id="admin.name"><source>RENOVAX Payments</source><target>RENOVAX Payments</target></trans-unit>
+      <trans-unit id="admin.description"><source>Multi-platform payment gateway: Crypto (USDT, USDC, EURC, DAI on multiple chains), Stripe (cards), PayPal and more — single hosted checkout.</source><target>Многоплатформенный платёжный шлюз: криптовалюты (USDT, USDC, EURC, DAI в нескольких сетях), Stripe (карты), PayPal и другое — единая защищённая касса.</target></trans-unit>
+      <trans-unit id="admin.confirm_uninstall"><source>Uninstall RENOVAX Payments? Configuration will be removed; the events table is preserved unless you tick "purge data".</source><target>Удалить RENOVAX Payments? Конфигурация будет удалена; таблица событий сохраняется, если не отмечен «purge data».</target></trans-unit>
+      <trans-unit id="admin.settings_legend"><source>RENOVAX Payments — Settings</source><target>RENOVAX Payments — Настройки</target></trans-unit>
+      <trans-unit id="admin.api_base_url"><source>API Base URL</source><target>Базовый URL API</target></trans-unit>
+      <trans-unit id="admin.api_base_url_help"><source>Leave the default value in production.</source><target>В продакшене оставьте значение по умолчанию.</target></trans-unit>
+      <trans-unit id="admin.bearer_token"><source>Bearer Token</source><target>Bearer Token</target></trans-unit>
+      <trans-unit id="admin.bearer_token_help"><source>Merchant token in RENOVAX. Generate it at: Merchants → Edit → API Tokens → Create. Shown only once — copy and paste here without spaces.</source><target>Токен мерчанта в RENOVAX. Создайте в: Merchants → Edit → API Tokens → Create. Отображается один раз — скопируйте и вставьте сюда без пробелов.</target></trans-unit>
+      <trans-unit id="admin.webhook_secret"><source>Webhook Secret</source><target>Webhook Secret</target></trans-unit>
+      <trans-unit id="admin.webhook_secret_help"><source>Merchant HMAC secret (visible on the merchant edit page in RENOVAX). Validates the X-Renovax-Signature header on incoming webhooks.</source><target>HMAC-секрет мерчанта (виден на странице редактирования мерчанта в RENOVAX). Проверяет заголовок X-Renovax-Signature входящих webhook’ов.</target></trans-unit>
+      <trans-unit id="admin.webhook_url"><source>Webhook URL</source><target>URL webhook</target></trans-unit>
+      <trans-unit id="admin.webhook_url_intro"><source>Register this URL as the merchant's webhook_url in RENOVAX:</source><target>Зарегистрируйте этот URL как webhook_url мерчанта в RENOVAX:</target></trans-unit>
+      <trans-unit id="admin.invoice_ttl"><source>Invoice TTL (minutes)</source><target>TTL инвойса (минут)</target></trans-unit>
+      <trans-unit id="admin.invoice_ttl_help"><source>How long the invoice stays valid before expiring (1–1440). Recommended: 15.</source><target>Время жизни инвойса до истечения (1–1440). Рекомендуется: 15.</target></trans-unit>
+      <trans-unit id="admin.debug_log"><source>Debug log</source><target>Debug log</target></trans-unit>
+      <trans-unit id="admin.debug_log_help"><source>Log API requests and webhook events with the [renovax] prefix.</source><target>Логировать API-запросы и webhook’и с префиксом [renovax].</target></trans-unit>
+      <trans-unit id="admin.enabled"><source>Enabled</source><target>Включено</target></trans-unit>
+      <trans-unit id="admin.disabled"><source>Disabled</source><target>Отключено</target></trans-unit>
+      <trans-unit id="admin.save"><source>Save</source><target>Сохранить</target></trans-unit>
+      <trans-unit id="admin.saved"><source>Settings updated.</source><target>Настройки сохранены.</target></trans-unit>
+      <trans-unit id="admin.err_url"><source>API Base URL is not a valid URL.</source><target>Базовый URL API недействителен.</target></trans-unit>
+      <trans-unit id="admin.err_ttl"><source>Invoice TTL must be between 1 and 1440 minutes.</source><target>TTL инвойса должен быть от 1 до 1440 минут.</target></trans-unit>
+      <trans-unit id="admin.err_auth"><source>RENOVAX Payments authentication failed. Verify the Bearer Token.</source><target>Аутентификация RENOVAX Payments не удалась. Проверьте Bearer Token.</target></trans-unit>
+      <trans-unit id="admin.err_transport"><source>RENOVAX Payments could not be reached. Please try again later.</source><target>Не удалось связаться с RENOVAX Payments. Повторите попытку позже.</target></trans-unit>
+      <trans-unit id="admin.err_validation"><source>Unprocessable request.</source><target>Запрос не может быть обработан.</target></trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ru" datatype="plaintext" original="Modules.Renovaxpayments.Shop">
+    <body>
+      <trans-unit id="shop.title"><source>Pay with RENOVAX Payments</source><target>Оплатить через RENOVAX Payments</target></trans-unit>
+      <trans-unit id="shop.description"><source>Pay with crypto, card or PayPal via RENOVAX. You will be redirected to a secure checkout.</source><target>Оплата криптой, картой или PayPal через RENOVAX. Вы будете перенаправлены в защищённую кассу.</target></trans-unit>
+      <trans-unit id="shop.cta"><source>Pay now</source><target>Оплатить</target></trans-unit>
+      <trans-unit id="shop.return.awaiting"><source>Thanks — we are awaiting payment confirmation. Your order will be updated automatically once RENOVAX confirms the transaction.</source><target>Спасибо — ожидаем подтверждение платежа. Заказ обновится автоматически после подтверждения транзакции в RENOVAX.</target></trans-unit>
+      <trans-unit id="shop.return.contact"><source>If you have any question, please contact %shop%.</source><target>По любым вопросам обращайтесь в %shop%.</target></trans-unit>
+      <trans-unit id="shop.return.title"><source>Awaiting payment confirmation</source><target>Ожидание подтверждения платежа</target></trans-unit>
+      <trans-unit id="shop.return.close"><source>You can close this page; you will receive an email when the payment is confirmed.</source><target>Можете закрыть страницу; вы получите письмо после подтверждения платежа.</target></trans-unit>
+      <trans-unit id="shop.cancelled"><source>Payment was cancelled. You can choose another payment method or retry.</source><target>Платёж отменён. Можно выбрать другой способ оплаты или повторить попытку.</target></trans-unit>
+      <trans-unit id="shop.err_start"><source>Could not start the payment. Please try again or contact support.</source><target>Не удалось начать оплату. Повторите попытку или обратитесь в поддержку.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" target-language="ar" datatype="plaintext" original="Modules.Renovaxpayments.Admin">
+    <body>
+      <trans-unit id="admin.name"><source>RENOVAX Payments</source><target>RENOVAX Payments</target></trans-unit>
+      <trans-unit id="admin.description"><source>Multi-platform payment gateway: Crypto (USDT, USDC, EURC, DAI on multiple chains), Stripe (cards), PayPal and more — single hosted checkout.</source><target>بوابة دفع متعددة المنصات: عملات رقمية (USDT، USDC، EURC، DAI على عدة شبكات)، Stripe (بطاقات)، PayPal وغيرها — صفحة دفع آمنة واحدة.</target></trans-unit>
+      <trans-unit id="admin.confirm_uninstall"><source>Uninstall RENOVAX Payments? Configuration will be removed; the events table is preserved unless you tick "purge data".</source><target>إلغاء تثبيت RENOVAX Payments؟ ستُحذف الإعدادات؛ يبقى جدول الأحداث محفوظًا ما لم تُفعّل خيار "purge data".</target></trans-unit>
+      <trans-unit id="admin.settings_legend"><source>RENOVAX Payments — Settings</source><target>RENOVAX Payments — الإعدادات</target></trans-unit>
+      <trans-unit id="admin.api_base_url"><source>API Base URL</source><target>عنوان API الأساسي</target></trans-unit>
+      <trans-unit id="admin.api_base_url_help"><source>Leave the default value in production.</source><target>اترك القيمة الافتراضية في الإنتاج.</target></trans-unit>
+      <trans-unit id="admin.bearer_token"><source>Bearer Token</source><target>Bearer Token</target></trans-unit>
+      <trans-unit id="admin.bearer_token_help"><source>Merchant token in RENOVAX. Generate it at: Merchants → Edit → API Tokens → Create. Shown only once — copy and paste here without spaces.</source><target>رمز التاجر في RENOVAX. أنشئه من: Merchants → Edit → API Tokens → Create. يظهر مرة واحدة فقط — انسخه والصقه هنا دون مسافات.</target></trans-unit>
+      <trans-unit id="admin.webhook_secret"><source>Webhook Secret</source><target>Webhook Secret</target></trans-unit>
+      <trans-unit id="admin.webhook_secret_help"><source>Merchant HMAC secret (visible on the merchant edit page in RENOVAX). Validates the X-Renovax-Signature header on incoming webhooks.</source><target>سر HMAC للتاجر (يظهر في صفحة تعديل التاجر في RENOVAX). يتحقق من ترويسة X-Renovax-Signature للويب هوك الواردة.</target></trans-unit>
+      <trans-unit id="admin.webhook_url"><source>Webhook URL</source><target>عنوان الويب هوك</target></trans-unit>
+      <trans-unit id="admin.webhook_url_intro"><source>Register this URL as the merchant's webhook_url in RENOVAX:</source><target>سجّل هذا العنوان بوصفه webhook_url للتاجر في RENOVAX:</target></trans-unit>
+      <trans-unit id="admin.invoice_ttl"><source>Invoice TTL (minutes)</source><target>صلاحية الفاتورة (بالدقائق)</target></trans-unit>
+      <trans-unit id="admin.invoice_ttl_help"><source>How long the invoice stays valid before expiring (1–1440). Recommended: 15.</source><target>المدة التي تبقى فيها الفاتورة صالحة قبل انتهاء الصلاحية (1–1440). موصى به: 15.</target></trans-unit>
+      <trans-unit id="admin.debug_log"><source>Debug log</source><target>سجل التصحيح</target></trans-unit>
+      <trans-unit id="admin.debug_log_help"><source>Log API requests and webhook events with the [renovax] prefix.</source><target>تسجيل طلبات API وأحداث الويب هوك ببادئة [renovax].</target></trans-unit>
+      <trans-unit id="admin.enabled"><source>Enabled</source><target>مُفعّل</target></trans-unit>
+      <trans-unit id="admin.disabled"><source>Disabled</source><target>معطّل</target></trans-unit>
+      <trans-unit id="admin.save"><source>Save</source><target>حفظ</target></trans-unit>
+      <trans-unit id="admin.saved"><source>Settings updated.</source><target>تم تحديث الإعدادات.</target></trans-unit>
+      <trans-unit id="admin.err_url"><source>API Base URL is not a valid URL.</source><target>عنوان API الأساسي غير صالح.</target></trans-unit>
+      <trans-unit id="admin.err_ttl"><source>Invoice TTL must be between 1 and 1440 minutes.</source><target>يجب أن تكون صلاحية الفاتورة بين 1 و 1440 دقيقة.</target></trans-unit>
+      <trans-unit id="admin.err_auth"><source>RENOVAX Payments authentication failed. Verify the Bearer Token.</source><target>فشل التحقق في RENOVAX Payments. تحقق من Bearer Token.</target></trans-unit>
+      <trans-unit id="admin.err_transport"><source>RENOVAX Payments could not be reached. Please try again later.</source><target>تعذّر الاتصال بـ RENOVAX Payments. حاول لاحقًا.</target></trans-unit>
+      <trans-unit id="admin.err_validation"><source>Unprocessable request.</source><target>طلب غير قابل للمعالجة.</target></trans-unit>
+    </body>
+  </file>
+  <file source-language="en" target-language="ar" datatype="plaintext" original="Modules.Renovaxpayments.Shop">
+    <body>
+      <trans-unit id="shop.title"><source>Pay with RENOVAX Payments</source><target>ادفع عبر RENOVAX Payments</target></trans-unit>
+      <trans-unit id="shop.description"><source>Pay with crypto, card or PayPal via RENOVAX. You will be redirected to a secure checkout.</source><target>ادفع بالعملات الرقمية أو ببطاقة أو عبر PayPal من خلال RENOVAX. ستُحوَّل إلى صفحة دفع آمنة.</target></trans-unit>
+      <trans-unit id="shop.cta"><source>Pay now</source><target>ادفع الآن</target></trans-unit>
+      <trans-unit id="shop.return.awaiting"><source>Thanks — we are awaiting payment confirmation. Your order will be updated automatically once RENOVAX confirms the transaction.</source><target>شكرًا — نحن بانتظار تأكيد الدفع. سيتم تحديث طلبك تلقائيًا فور تأكيد RENOVAX للمعاملة.</target></trans-unit>
+      <trans-unit id="shop.return.contact"><source>If you have any question, please contact %shop%.</source><target>لأي استفسار، يرجى التواصل مع %shop%.</target></trans-unit>
+      <trans-unit id="shop.return.title"><source>Awaiting payment confirmation</source><target>بانتظار تأكيد الدفع</target></trans-unit>
+      <trans-unit id="shop.return.close"><source>You can close this page; you will receive an email when the payment is confirmed.</source><target>يمكنك إغلاق هذه الصفحة؛ ستصلك رسالة بريد إلكتروني عند تأكيد الدفع.</target></trans-unit>
+      <trans-unit id="shop.cancelled"><source>Payment was cancelled. You can choose another payment method or retry.</source><target>تم إلغاء الدفع. يمكنك اختيار طريقة دفع أخرى أو المحاولة مرة أخرى.</target></trans-unit>
+      <trans-unit id="shop.err_start"><source>Could not start the payment. Please try again or contact support.</source><target>تعذّر بدء عملية الدفع. حاول مجددًا أو تواصل مع الدعم.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

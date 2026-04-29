@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  RENOVAX Payments — BILLmanager module manifest.
+  Copy to: /usr/local/mgr5/etc/xml/billmgr_mod_pmrenovax.xml
+  Then run: /usr/local/mgr5/sbin/mgrctl -m billmgr mgrservice.restart
+-->
+<mgrdata>
+    <plugin name="pmrenovax">
+        <group>paymethod</group>
+    </plugin>
+
+    <library name="pmcommon"/>
+
+    <metadata name="paymethod.edit.pmrenovax" type="form">
+        <form>
+            <page name="connection">
+                <field name="api_base_url">
+                    <input type="text" name="api_base_url" required="yes"/>
+                </field>
+                <field name="bearer_token">
+                    <input type="password" name="bearer_token" required="yes"/>
+                </field>
+                <field name="webhook_secret">
+                    <input type="password" name="webhook_secret" required="yes"/>
+                </field>
+                <field name="invoice_ttl_minutes">
+                    <input type="text" name="invoice_ttl_minutes" check="positive_int_max_1440"/>
+                </field>
+            </page>
+        </form>
+    </metadata>
+
+    <messages name="paymethod.edit.pmrenovax">
+        <msg name="connection">Connection</msg>
+        <msg name="api_base_url">RENOVAX API base URL</msg>
+        <msg name="bearer_token">Bearer Token</msg>
+        <msg name="webhook_secret">Webhook Secret</msg>
+        <msg name="invoice_ttl_minutes">Invoice TTL (minutes)</msg>
+    </messages>
+
+    <messages name="paymethod" lang="en">
+        <msg name="pmrenovax">RENOVAX Payments</msg>
+        <msg name="pmrenovax_desc">Crypto, Stripe, PayPal &amp; more — single hosted checkout.</msg>
+    </messages>
+
+    <messages name="paymethod" lang="es">
+        <msg name="pmrenovax">RENOVAX Payments</msg>
+        <msg name="pmrenovax_desc">Cripto, Stripe, PayPal y más — checkout hospedado único.</msg>
+    </messages>
+
+    <messages name="paymethod" lang="fr">
+        <msg name="pmrenovax">RENOVAX Payments</msg>
+        <msg name="pmrenovax_desc">Crypto, Stripe, PayPal et plus — checkout hébergé unique.</msg>
+    </messages>
+
+    <messages name="paymethod" lang="pt">
+        <msg name="pmrenovax">RENOVAX Payments</msg>
+        <msg name="pmrenovax_desc">Cripto, Stripe, PayPal e mais — checkout hospedado único.</msg>
+    </messages>
+
+    <messages name="paymethod" lang="ru">
+        <msg name="pmrenovax">RENOVAX Payments</msg>
+        <msg name="pmrenovax_desc">Крипто, Stripe, PayPal и другие — единое размещённое оформление.</msg>
+    </messages>
+
+    <messages name="paymethod" lang="ar">
+        <msg name="pmrenovax">RENOVAX Payments</msg>
+        <msg name="pmrenovax_desc">عملات رقمية، Stripe، PayPal والمزيد — صفحة دفع موحدة.</msg>
+    </messages>
+</mgrdata>

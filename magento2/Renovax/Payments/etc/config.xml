@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <renovax>
+                <active>0</active>
+                <model>Renovax\Payments\Model\Payment</model>
+                <title>RENOVAX Payments</title>
+                <description>Pay with crypto, card or PayPal via RENOVAX. You will be redirected to a secure checkout.</description>
+                <api_base_url>https://payments.renovax.net</api_base_url>
+                <bearer_token></bearer_token>
+                <webhook_secret></webhook_secret>
+                <invoice_ttl_minutes>15</invoice_ttl_minutes>
+                <order_status>pending_payment</order_status>
+                <payment_action>order</payment_action>
+                <can_use_internal>0</can_use_internal>
+                <can_use_checkout>1</can_use_checkout>
+                <allowspecific>0</allowspecific>
+                <group>offline</group>
+                <debug>0</debug>
+            </renovax>
+        </payment>
+    </default>
+</config>

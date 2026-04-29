@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: RENOVAX Payments for WooCommerce 1.0.0\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "RENOVAX Payments requires WooCommerce to be installed and active."
+msgstr "RENOVAX Payments nécessite que WooCommerce soit installé et activé."
+
+msgid "Settings"
+msgstr "Réglages"
+
+msgid "Bearer Token is not configured."
+msgstr "Le Bearer Token n'est pas configuré."
+
+msgid "RENOVAX Payments could not be reached. Please try again later."
+msgstr "Impossible de contacter RENOVAX Payments. Veuillez réessayer plus tard."
+
+msgid "RENOVAX Payments authentication failed. Verify the Bearer Token."
+msgstr "Échec d'authentification RENOVAX Payments. Vérifiez le Bearer Token."
+
+msgid "Unprocessable request."
+msgstr "Requête non traitable."
+
+msgid "RENOVAX Payments returned an unexpected error. Please try again later."
+msgstr "RENOVAX Payments a renvoyé une erreur inattendue. Veuillez réessayer plus tard."
+
+msgid "RENOVAX Payments returned an invalid response."
+msgstr "RENOVAX Payments a renvoyé une réponse invalide."
+
+msgid "RENOVAX Payments"
+msgstr "RENOVAX Payments"
+
+msgid "Multi-platform payment gateway: Crypto (USDT, USDC, EURC, DAI on multiple chains), Stripe (cards), PayPal and more — single hosted checkout."
+msgstr "Passerelle multi-plateforme : Crypto (USDT, USDC, EURC, DAI sur plusieurs réseaux), Stripe (cartes), PayPal et plus — un seul checkout hébergé."
+
+msgid "Pay with crypto, card or PayPal via RENOVAX. You will be redirected to a secure checkout."
+msgstr "Payez en crypto, par carte ou via PayPal avec RENOVAX. Vous serez redirigé vers un checkout sécurisé."
+
+msgid "Enable/Disable"
+msgstr "Activer/Désactiver"
+
+msgid "Enable RENOVAX Payments"
+msgstr "Activer RENOVAX Payments"
+
+msgid "Title"
+msgstr "Titre"
+
+msgid "Title shown to the customer at checkout."
+msgstr "Titre affiché au client à la caisse."
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Description shown below the title at checkout."
+msgstr "Description affichée sous le titre à la caisse."
+
+msgid "API Base URL"
+msgstr "URL de base de l'API"
+
+msgid "Leave the default value in production."
+msgstr "Laissez la valeur par défaut en production."
+
+msgid "Bearer Token"
+msgstr "Bearer Token"
+
+msgid "Merchant token in RENOVAX. Generate it at: Merchants → Edit → API Tokens → Create. Shown only once — copy and paste here without spaces."
+msgstr "Token marchand RENOVAX. Générez-le dans : Marchands → Éditer → API Tokens → Créer. Affiché une seule fois — copiez-collez ici sans espaces."
+
+msgid "Webhook Secret"
+msgstr "Secret du Webhook"
+
+msgid "Merchant HMAC secret (visible on the merchant edit page in RENOVAX). Used to validate the X-Renovax-Signature header on incoming webhooks."
+msgstr "Secret HMAC marchand (visible sur la page d'édition du marchand dans RENOVAX). Valide l'en-tête X-Renovax-Signature des webhooks entrants."
+
+msgid "Webhook URL"
+msgstr "URL du Webhook"
+
+msgid "Register this URL as the merchant's webhook_url in RENOVAX:%s"
+msgstr "Enregistrez cette URL comme webhook_url du marchand dans RENOVAX :%s"
+
+msgid "Invoice TTL (minutes)"
+msgstr "TTL de la facture (minutes)"
+
+msgid "How long the invoice stays valid before expiring. Recommended: 15."
+msgstr "Durée de validité de la facture avant expiration. Recommandé : 15."
+
+msgid "Debug log"
+msgstr "Journal de débogage"
+
+msgid "Log API requests and webhook events to WooCommerce → Status → Logs (renovax-*)."
+msgstr "Enregistrer les requêtes API et webhooks dans WooCommerce → État → Journaux (renovax-*)."
+
+msgid "RENOVAX invoice creation failed: %s"
+msgstr "Échec de création de facture RENOVAX : %s"
+
+msgid "RENOVAX returned an incomplete response. Please try again."
+msgstr "RENOVAX a renvoyé une réponse incomplète. Veuillez réessayer."
+
+msgid "Awaiting RENOVAX payment (invoice %s)."
+msgstr "En attente du paiement RENOVAX (facture %s)."
+
+msgid "Order not found."
+msgstr "Commande introuvable."
+
+msgid "No RENOVAX invoice associated with this order."
+msgstr "Aucune facture RENOVAX associée à cette commande."
+
+msgid "RENOVAX refund processed: %1$s (invoice %2$s)."
+msgstr "Remboursement RENOVAX traité : %1$s (facture %2$s)."
+
+msgid "RENOVAX webhook received but order is already paid — no action."
+msgstr "Webhook RENOVAX reçu mais la commande est déjà payée — aucune action."
+
+msgid "RENOVAX OVERPAID: gross %1$s %2$s, net %3$s, fee %4$s."
+msgstr "RENOVAX SURPAYÉ : brut %1$s %2$s, net %3$s, frais %4$s."
+
+msgid "RENOVAX paid: gross %1$s %2$s, net %3$s, fee %4$s."
+msgstr "RENOVAX payé : brut %1$s %2$s, net %3$s, frais %4$s."
+
+msgid "RENOVAX partial payment received (%s). Manual review required."
+msgstr "Paiement partiel RENOVAX reçu (%s). Vérification manuelle requise."
+
+msgid "RENOVAX invoice expired without payment."
+msgstr "Facture RENOVAX expirée sans paiement."

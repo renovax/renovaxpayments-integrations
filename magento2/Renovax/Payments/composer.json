@@ -1,0 +1,17 @@
+{
+  "name": "renovax/module-payments",
+  "description": "RENOVAX Payments — Magento 2 module: hosted checkout for Crypto, Stripe and PayPal.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=7.4",
+    "magento/framework": "*"
+  },
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {
+      "Renovax\\Payments\\": ""
+    }
+  }
+}
